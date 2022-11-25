@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMA3">
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textStyle="italic|bold"
+        android:text="Steps of Virabhadrasana type I
+First stand straight and spread your legs; keep a 3 to 4 feet distance between your legs. Keep your right foot in the forward direction and keep the left foot back direction.
+With your right leg turn outwards at 90 degree and keep left leg by 15 degrees. Place your heel of the right leg is completely parallel to the midpoint of the left leg.
+Raise your arms up to the height of shoulders. Keep your arms parallel to the ground with palms facing upward.
+Breathe out and twist your right knee in a way that knee and ankle makes a parallel line. (Ensure that your knee does not go ahead in front of your ankle).
+Look to your right side.
+Now stretch your arms and join your palms above your head (Make a salutation pose or Namaskar pose with your palms above the head).
+Keep looking at your palms and slowly push down your pelvis.
+Hold the pose with the same determination as a warrior, andwear a smile on your face. Breathe normally and keep going down.
+Remain in this position for a moment; with the feeling that you are a warrior.
+Breathe normally in and come to the standing position.
+Breathe out and slowly put your hands down.
+Repeat this Asana from your left side (look at your left side), by putting your left leg in forward direction and right leg at the back. (Opposite to the earlier process).
+Benefits of Virabhadrasana Type I
+It strengthens and tones your lower back, legs and arms, and the legs.
+It Strengthensyour Thighs, Ankles, Calves, Shoulders, Arms and Back.
+It stretches your Navel, Ankles, and thighs, Groin, Lungs, Thorax, Calves, Shoulders and Neck.
+ of auspiciousness."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/virabha"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Virabhadrasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

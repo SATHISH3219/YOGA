@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMI4">
+
+    <ImageButton
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/dhanurasana"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:shapeAppearanceOverlay="@style/circular"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Definition - What does Dhanurasana mean?
+Dhanurasana is a backbend that deeply opens the chest and the front of the body. The name comes from the Sanskrit dhanu, meaning bow, and asana, meaning pose.
+
+    In this asana, the practitioner lies flat on the stomach and bends the knees. Then the arms reach back to grab the ankles. The back arches and the thighs lift off of the floor as the chest pushes forward, bending the body to resemble a bow.
+
+    Dhanurasana is commonly referred to as bow pose in English.
+
+Yogapedia explains Dhanurasana
+This asana is the eighth pose in the 12 basic postures of Integral Yoga. It is also the last of the three back-bending poses in a standard Hatha yoga class.
+
+In a spiritual practice, dhanurasana stimulates the manipura (solar plexus) chakra, also called the life source chakra, situated just above the navel. Stimulating this chakra increases the digestive fire and activates the flow of prana, or life energy. Manipura chakra also represents the core Self and is tied to the practitioner's sense of identity and the ability to be confident and in control.
+Those with limited flexibility can use a strap to reach the feet at first. If it is not possible to lift the thighs away from the floor, legs can be boosted slightly with a blanket. For more advanced practitioners, this asana can be deepened by performing it with thighs, knees, calves and inner feet touching."
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="Dhanurasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

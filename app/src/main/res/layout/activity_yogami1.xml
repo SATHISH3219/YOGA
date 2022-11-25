@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMI1">
+
+    <ImageButton
+
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/ustrasana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:text="Step 1
+First, Sit in Thunderbolt Pose. The knees should not be far apart. A little gap is enough in between the knees.
+
+Step 2
+Next, stand on the knees. Then lean backward. Reach your right heel and hold it with the right palm and similarly reach the left heel and hold it with the left palm.
+
+Step 3
+Now, push the abdomen forward and straighten and keep the thighs vertical. Slowly Bend the spine and the head back to the maximum. You should not force and overdo this step. You should feel comfortable altogether.
+
+Step 4
+Now the weight of the body is on the legs. Breathe normally. Retain the position as long as you feel comfortable.
+To release the position, bring the head and spine forward suitably adjusting the hand position. Then come back to Thunderbolt Pose.
+Camel Pose improves the flexibility of the entire spine and helps to remove the hunch back. Though this pose is good for backache, lumbago, and other spinal issues, one should perform this pose under competent supervision. If not rightly performed, it may aggravate the existing issues.
+It tones up the internal organs of the stomach. As a consequence, this improves digestion, removes constipation, and boosts the functions of the liver and adrenal gland.
+Camel Pose stretches the muscles of the chest region and the lungs. "
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="Ustrasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

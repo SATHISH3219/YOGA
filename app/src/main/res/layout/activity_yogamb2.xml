@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMB2">
+
+
+    <ImageButton
+        android:id="@+id/imageView11"
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/dandasana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:text="Benefits of Dandasana
+
+It stretches Hamstrings, Calve muscles, and Shoulders.
+Staff pose gives Strength to the back spine and other core muscles if practiced regularly.
+Further, If you run or play sports where it involves a lot of running, your hamstrings may be too tight. Staff pose can help to restore flexibility in your hamstrings and calves.
+This asana is also helpful for sciatica pain.
+The consistent practice of Dandasana develops awareness in the body. Evenly spread bodyweight not only hips but to your chest and thighs as well. Such an effort add on conscious awareness to the entire body. The Staff Pose expands your upper body upwards and the lower body forward
+Dandasana lengthens your spine
+Helps in improving posture
+It strengthens your back muscles and thighs
+Relieves problems related to reproductive organs
+Broadens and stretches your chest and shoulders
+Stretches your spine, arms, and legs
+Helps in better functioning of your digestive organs
+Opens up your chest area
+Helps in relieving stress
+Gives a mild stretch to your hamstrings
+Dandasana also creates body awareness"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="120dp"
+        android:gravity="center"
+        android:text="Dandasana"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

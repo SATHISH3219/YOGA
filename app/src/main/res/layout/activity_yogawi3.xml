@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAWI3">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundbtn2"
+        android:textStyle="italic|bold"
+        android:layout_marginEnd="16dp"
+        android:text="click for video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:shapeAppearanceOverlay="@style/circular"
+        android:id="@+id/imageView32"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vrikshasana"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textStyle="italic|bold"
+        android:text="Stand tall and straight with arms by the side of your body.
+Bend your right knee and place the right foot high up on your left thigh. The sole of the foot should be placed flat and firmly near the root of the thigh.
+Make sure that your left leg is straight. Find your balance.
+Once you are well balanced, take a deep breath in, gracefully raise your arms over your head from the side, and bring your palms together in ‘Namaste’ mudra (hands-folded position).
+Look straight ahead in front of you, at a distant object. A steady gaze helps maintain a steady balance.
+Ensure that your spine is straight. Your entire body should be taut, like a stretched elastic band. Keep taking in long deep breaths. With each exhalation, relax the body more and more. Just be with the body and the breath with a gentle smile on your face.
+With slow exhalation, gently bring down your hands from the sides. You may gently release the right leg.
+Stand tall and straight as you did at the beginning of the posture. Repeat this pose with the left leg off the ground on the right thigh."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

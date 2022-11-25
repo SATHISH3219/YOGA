@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMB4">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Bhujangasana is a back-bending pose that grants the practitioner movability of the lower back and spine. Moreover, It promotes flexibility in the entire torso region that helps in the broadening of the thoracic volume and ultimately promotes respiratory capacities.
+
+Apart from that, it also helps in strengthening of wrist, forearms, shoulder, lower back, and the muscles attached to the spinal column. Due to the beginner level category of this pose, Bhujangasana is one of the easiest backbends which can be performed by almost all of the age group. So, one can promote their mind and body balance with a regular practice of Bhujanagasna in their daily life.
+ is a Sanskrit term which is translated as ‘Bhujang’ means ‘snake’ and ‘asana’ means ‘Posture’. Therefore, this asana symbolizes a snake with the hood as when the practitioner fully acquires the pose. Hence, it ensures snake-like flexibility in the practitioner’s passionate practice.
+
+The way snake twists and turn to cross each and every obstacle with the help of its flexible nature of the body. Similarly, by the practice of the Bhujangasana, the practitioner establishes a sense of adaptability towards the physical challenges that arrive for the further back bending practices in Yoga.
+
+Apart from that, As the snakes shed their skin to renew their body surface, it represents rebirth, transformation, or new life. Therefore, an individual by the practice of Bhujangasana transforms his/her body into even more stronger and flexible, which vitalizes life."
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="87dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/bhujan"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:gravity="center"
+        android:text="Bhujangasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

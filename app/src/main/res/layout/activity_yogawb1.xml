@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAWB1">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView25"
+
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/pranamasana"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:background="@drawable/roundbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:text="click for video"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Pranamasana is a centering asana often used as a routine part of Surya Namaskar or as a transitional pose. While standing, sitting or squatting, the palms press together in front of the heart's center while allowing the shoulders to roll down the back and the elbows to rest at the sides of the rib cage.
+
+Pranamasana is also known as prayer pose in English.In Sanskrit, pranam means “life, soul” or “pay respect,” and asana means “seat.” When put into practice, this pose has a tranquil, centering effect on the mind and body, and is used to focus and deepen the breath.
+
+    The gesture of hands at heart’s center with palms pressed together is a common greeting in Eastern cultures. In yoga, heart’s center is thought to be where the self is located. In pranamasana, one is honoring and connecting with the self; one’s teacher, if in a guided practice; as well as the Divine.
+
+    This pose is often used at the start and/or finish of a yoga practice."
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

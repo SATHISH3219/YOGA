@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAWB3">
+
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/roundbtn2"
+        android:textStyle="italic|bold"
+        android:layout_marginEnd="16dp"
+        android:text="click for video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="32dp"
+        android:text="We also know Trikasanan as extended side angle pose. The meaning of Parsvakonasana side angle pose is the combination of two words Parsva ‘plank’ and Kona means ‘angle.’
+
+Before we jump to the Parsvakonasana steps, we must know the preparatory poses of Parsvakonasana (extended side angle pose) this will help to prepare your body to practise this asana with more ease.Siddhasana
+
+2.  Upavistha Konasana
+
+3.  Virabhadrasana II
+
+4.  Supta Padangusthasana
+
+5.  Supta Baddha Konasana
+
+6.  Adho Mukha Svanasana
+
+7.  Virasana
+
+8.  Prasarita Padottanasana
+
+9.  Utthita Trikonasana
+
+10.  Supta Virasana
+
+Now, we will discuss some cautions that you should keep in mind before you practise Parsvakonasana (extended side angle pose)
+
+After practising Parsvakonasana (extended side angle pose) you might face some problems like high or low blood pressure, insomnia and headaches.
+
+But this does not mean you cannot practise this asana, you see any such problem, just consult your doctor or a yoga expert. And do what is best for you according to your doctor and yoga trainer.
+
+
+tone those muscles. "
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:shapeAppearanceOverlay="@style/circular"
+
+        android:id="@+id/imageView29"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trikonasam" />
+</androidx.constraintlayout.widget.ConstraintLayout>

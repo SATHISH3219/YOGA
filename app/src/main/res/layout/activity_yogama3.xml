@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMA3">
+
+    <ImageButton
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/halasana"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="Step 1
+Lie on the back with legs close together and arms closer to the body. Place the palms on the floor and take a couple of deep breathes.
+
+Step 2
+Raise both the legs up together keeping them straight. Raise the buttock and lower the legs over the head and touch the floor with the toes.
+
+Step 3
+Raise the arms and support the back with the palms. Breathe normally. Keep the position as long as it is comfortable.
+
+In one of the variations of this pose, hands are kept on the floor with palms facing the floor.
+Step 4
+To release the position, bring back the arms to the floor and raise the legs and lowering the back roll over to the initial position.
+Halasana Benefits
+It tones up the digestive system and hence it is good for constipation, and indigestion.
+Plough Pose helps the internal organs of the stomach to function normally. So it improves the functions of the liver, kidney, pancreas, adrenal, and thereby address the issues.
+Moreover, It improves the functions of the thyroid and thymus gland and boosts the immune system.
+Plough Pose is good for menstrual disorders.
+The abdomen muscles are strengthened.
+Plough boosts the respiratory system and good for Asthma-like health conditions."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:text="Halasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

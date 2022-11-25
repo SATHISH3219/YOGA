@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAWB2">
+
+<com.google.android.material.imageview.ShapeableImageView
+    app:shapeAppearanceOverlay="@style/circular"
+        android:id="@+id/imageView23"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/padmasana"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button10"
+        android:background="@drawable/roundbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="click for video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="The therapeutic benefits of Lotus Pose include both physical and psychological benefits.
+
+Blood circulation in the lower part of the body is restricted and thereby increases digestive power.
+It activates the Parasympathetic Nervous System and thereby decreases the amount of stress and anxiety
+Lotus Posture provides progressive relaxation that reduces High Blood Pressure and pulse rate
+It helps in Cardiac Rehabilitation after myocardial Infarction
+Lotus posture for 30 minutes shows an increased subtle energy level in all acupuncture meridians.The following yoga postures belong to the group of Lotus posture.
+
+Ardha Padmasana or Half Lotus Pose
+Tulasana or Scale Pose
+Baddha Padmasana or Bound Lotus Pose
+Kukkudasana (Cockerel Pose)
+Upward Lotus Pose
+Yoga Mudrasana or Psychic Union Pose"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

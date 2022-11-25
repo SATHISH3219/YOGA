@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMI2">
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Benefits of Virabhadrasana III or Warrior III
+1. Melts Excess Fat off the Body
+This pose helps to melt away excess fat on the body. This is because it requires a lot of muscle engagement, which in turn burns calories. Additionally, the long hold time in this pose also helps to burn more calories.
+
+2. Aids Digestion and Elimination
+This pose helps improve digestion and elimination by stretching out the abdominal muscles and the entire digestive system. Additionally, the deep breathing involved in this pose helps to oxygenate the organs and improve their function.
+
+3. Strengthens the Back
+This pose is great for strengthening the back muscles. It requires a lot of extension and flexion of the spine, which works to tone and strengthen these muscles. Additionally, it helps to improve posture and alignment.
+
+4. Stretches the Hips and Legs
+This pose is a great stretch for the hips and legs. It opens up the hip joints and stretches out the hamstring, calf, and ankle muscles. This can help to improve flexibility in these areas.
+
+5. Improves Body and Mind Coordination and Balance
+This pose requires a lot of balance and coordination. It is a great way to improve these skills. Additionally, it can help to increase strength and stability in the ankles and hips.
+
+6. It is one of the Multiplanar Postures
+This pose is a multiplanar posture, which means that it works on multiple planes of movement. This helps to improve coordination and balance, as well as overall body strength"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+
+
+        android:id="@+id/imageView19"
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/vira"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:text="Virabhadrasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

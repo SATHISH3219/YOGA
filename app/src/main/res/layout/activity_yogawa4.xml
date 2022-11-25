@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAWA4">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView28"
+
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="224dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/malasana"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        android:background="@drawable/roundbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="click for video"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="When you were a kid, did you sit in a squat pose easily? Most children do—sometimes for hours at a time as they play on the floor. Adults can lose this ability because we sit in chairs all day long, rarely hanging out that close to the ground for any length of time. If you can’t do this pose now, it’s almost always because you haven’t done it in a long time. If it’s available to you, do it often. If it’s not, doing this pose is a worthwhile goal.
+
+For thousands of years, humans have been sitting in this deep squat pose. In Asian cultures, they still gather and even eat in this pose. They also regularly use squatty potties! While these aren’t common in Western cultures—we prefer toilets—the idea of squatty potties are great. You keep your body supple and fit while you go! One expert, Philip Beach, calls Garland Pose our birthright. He thinks we all deserve to do this pose that develops ankle flexibility and strength and requires deep flexion in the hip joints. Put simply: It keeps us on the move for life."
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

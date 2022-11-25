@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMA1">
+
+
+    <ImageButton
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/sirsana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:text="Sirsasana is an advanced inversion that exhibits strength, control and the beauty of overcoming the fear of falling through physical and mental balance. The name is derived from the Sanskrit sirsa, meaning “head,” and asana meaning “pose” or “posture.”
+
+In this asana, the head and forearms rest on the mat with the hands clasped. The legs are lifted and the body's weight is shifted until it is fully supported by the head and forearms. The torso is perpendicular to the mat in a straight line from the hips to the head.
+
+Sirsasana may also be referred to as headstand in English.
+Sirsasana is considered by some to be the most important inversion and is often referred to as the “king” of asanas. This full inversion returns blood to the heart and the brain, refreshing the cardiovascular and lymphatic system and providing energizing effects for the whole body.
+
+Those who engage in spiritual yoga practice may use this asana to redirect sexual energies into a higher spiritual energy, which is thought to increase wellness and promote a positive aura. This higher energy is called ojas, and is thought to assist in heightening other spiritual yogic practices."
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="Sirsasana"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

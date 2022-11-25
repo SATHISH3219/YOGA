@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".YOGAMB3">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="The benefits of Balasana are:
+
+Promotes blood circulation in the whole body
+Relaxes the abdomen and chest
+Balasana keeps you energized
+Cures back pain
+Helpful if you feel dizziness or fatigueIt encourages the right way of breathing and calms both the body and the mind. The Balasana is a restorative, calming pose that relaxes and rejuvenates the body. The stretch in the back relaxes the spinal column. It calms the muscles, thereby helping to alleviate pain, especially in back, neck, and shoulders.
+Balasana or Child Pose is a special pedestal of yoga science. The word Baal is a Sanskrit word meaning baby. While asana means sitting. In this way, these two words collectively mean sitting posture like a child.
+
+In Balasana, the body falls into the same position as in the mother’s womb. The condition in which the child waits for 9 months to be born while staying in the mother’s womb. Performing the balasana, the yogi takes the body to the same position.
+
+The yogi’s body gets many benefits from the continuous practice of Balasana. That is why in this article I will give you information about what is Balasana benefits of Balasana, the right way to do Balasana, method and precautions."
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageView13"
+        android:layout_width="237dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundbtn"
+        android:gravity="center"
+        android:src="@drawable/balasana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image for video"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Balasana"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
