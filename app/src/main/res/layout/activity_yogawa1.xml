@@ -37,7 +37,7 @@
 
         android:layout_width="321dp"
         android:layout_height="200dp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="56dp"
         android:layout_marginBottom="37dp"
         android:gravity="center"

@@ -7,143 +7,65 @@
     android:background="@drawable/back4"
     tools:context=".YOGAWB">
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/tri2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageView6"
+        android:id="@+id/imageButton4"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="22dp"
-        android:background="@drawable/pranamasana"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="130dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/padma2"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
     <ImageButton
-        android:id="@+id/imageView7"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="199dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/padmasana"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageView8"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="177dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="169dp"
-        android:background="@drawable/trikonasam"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
-
-    <ImageButton
-        android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/virabhadra"
+        android:id="@+id/imageButton5"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="429dp"
+        android:background="@drawable/prana"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView5" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="7dp"
-        android:text="CHOOSE A IMAGE FOR DETAILS"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="79dp"
-        android:text="Pranamasana="
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="52dp"
-        android:text="Padmasana="
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="48dp"
-        android:text="Parsvakonasana="
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="102dp"
-        android:text="Virabhadrasana2="
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/vira4"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:ignore="DuplicateIds" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="522dp"
-        android:text="Beginner"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="51dp"
+        android:text="BEGINNER"
         android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

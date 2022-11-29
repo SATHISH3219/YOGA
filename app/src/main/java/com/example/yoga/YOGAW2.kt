@@ -11,9 +11,9 @@ class YOGAW2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yogaw3)
         supportActionBar?.hide()
-        var btn=findViewById<Button>(R.id.button3)
-        var btn1=findViewById<Button>(R.id.button4)
-        var btn2=findViewById<Button>(R.id.button)
+        var btn=findViewById<ImageButton>(R.id.button3)
+        var btn1=findViewById<ImageButton>(R.id.button4)
+        var btn2=findViewById<ImageButton>(R.id.button)
         btn.setOnClickListener{
             var x= Intent(this@YOGAW2,YOGAWB::class.java)
             startActivity(x)

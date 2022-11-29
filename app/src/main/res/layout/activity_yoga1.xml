@@ -9,26 +9,29 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="0dp"
-        android:layout_height="130dp"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="99dp"
-        android:background="@drawable/men1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        android:layout_marginTop="304dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/men6"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="0dp"
-        android:layout_height="135dp"
+        android:layout_width="163dp"
+        android:layout_height="216dp"
         android:layout_marginEnd="11dp"
-        android:background="@drawable/women1"
+        android:background="@drawable/women6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
 
     <TextView
         android:id="@+id/textView"
@@ -48,13 +51,14 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="43dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="177dp"
         android:gravity="center"
         android:text="MENS"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
@@ -62,8 +66,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
         android:gravity="center"
         android:text="WOMEN"
         android:textColor="@color/black"
